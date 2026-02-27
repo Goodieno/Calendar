@@ -251,12 +251,12 @@ function updateClock() {
    Weather (OpenWeather API)
 ===================== */
 
-const WEATHER_API_KEY = "YOUR_API_KEY_HERE";
+const WEATHER_API_KEY = "fa9fe37b9be14839fe6774643939e974";
 const CITY = "Dangjin,KR";
 
 async function loadWeather() {
 
-    if (WEATHER_API_KEY === "YOUR_API_KEY_HERE") return;
+    if (WEATHER_API_KEY === "fa9fe37b9be14839fe6774643939e974") return;
 
     try {
         const res = await fetch(
@@ -282,7 +282,7 @@ async function loadWeather() {
 
 async function loadAirQuality() {
 
-    if (WEATHER_API_KEY === "YOUR_API_KEY_HERE") return;
+    if (WEATHER_API_KEY === "fa9fe37b9be14839fe6774643939e974") return;
 
     try {
 
@@ -338,4 +338,5 @@ setInterval(() => {
 </script>
 
 </body>
+
 </html>
